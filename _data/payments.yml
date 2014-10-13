@@ -4,21 +4,21 @@ websites:
       twitter: AmazonPayments
       img: amazon.png
       tfa: No
-<<<<<<< HEAD
-      
-=======
 
->>>>>>> c5f3adfe01f22316212b612e32b218f72e602707
+    - name: Buycraft
+      url: http://buycraft.net
+      img: buycraft.png
+      tfa: Yes
+      software: Yes
+      sms: Yes
+      doc: http://server.buycraft.net/tfa
+
     - name: GoCardless
       img: gocardless.png
       url: https://gocardless.com/
       twitter: GoCardless
       tfa: No
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> c5f3adfe01f22316212b612e32b218f72e602707
     - name: Google Wallet
       url: http://www.google.se/wallet/
       img: googlewallet.png
@@ -28,23 +28,28 @@ websites:
       software: Yes
       doc: http://www.google.com/intl/en-US/landing/2step/features.html
 
+    - name: Litle & Co
+      img: litleco.png
+      twitter: litleco
+      tfa: No
+      url: https://www.litle.com
+
     - name: Payoneer
       url: http://www.payoneer.com/
       twitter: Payoneer
       img: payoneer.png
       tfa: No
+      status: https://twitter.com/Payoneer/status/456922100767674369
 
     - name: PayPal
       url: https://www.paypal.com/
       img: paypal.png
       tfa: Yes
       sms: Yes
-<<<<<<< HEAD
-      hardware: Yes
-      doc: https://www.paypal.com/us/cgi-bin?cmd=xpt/Marketing_CommandDriven/securitycenter/PayPalSecurityKey-outside&bn_r=o
-=======
       software: Yes
       hardware: Yes
+      exceptions:
+          text: "2FA only available in the US and Canada. SMS only available in the US."
       doc: https://www.paypal.com/us/cgi-bin?cmd=xpt/Marketing_CommandDriven/securitycenter/PayPalSecurityKey-outside&bn_r=o
 
     - name: Skrill
@@ -53,7 +58,6 @@ websites:
       tfa: Yes
       hardware: Yes
       doc: https://help.skrill.com/pkb_sc_article_FAQ?id=kA0D0000000Ci3x&l=en_GB
->>>>>>> c5f3adfe01f22316212b612e32b218f72e602707
 
     - name: Stripe
       img: stripe.png
@@ -72,15 +76,6 @@ websites:
       img: venmo.png
       twitter: venmo
       tfa: No
-<<<<<<< HEAD
-      url: https://squareup.com
-
-    - name: Venmo
-      img: venmo.png
-      twitter: venmo
-      tfa: No
-=======
->>>>>>> c5f3adfe01f22316212b612e32b218f72e602707
       url: https://venmo.com
 
     - name: Fastspring
