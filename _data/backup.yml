@@ -116,5 +116,6 @@ websites:
     twitter: Synology
     img: synology.png
     tfa: Yes
+    software: Yes
     doc: http://itsoluti0ns.wordpress.com/2013/04/29/enable-2-way-verification-on-synology-nas/
 

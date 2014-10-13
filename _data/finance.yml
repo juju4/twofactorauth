@@ -324,7 +324,7 @@ websites:
       tfa: No
       doc: http://www.scotiabank.com/ca/en/0,,2976,00.html
 
-    - name: TD Canada Trust
+    - name: TD Canada Trust (Canada)
       url: http://www.tdcanadatrust.com/
       img: tdcanadatrust.png
       tfa: No
